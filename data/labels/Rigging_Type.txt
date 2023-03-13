@@ -1,0 +1,37 @@
+2 mst. schooner
+b&r
+b&r fractional
+brigantine
+cat (marconi)
+cat (rotating spar)
+cat (unstayed)
+cat ketch
+cat ketch (unstayed)
+cutter
+cutter/ketch
+frac. sloop (free standing)
+frac. sloop (rotating spar)
+fractional  sloop
+fractional (7/8) sloop
+fractional (9/10) sloop
+fractional yawl
+fractionally rigged ketch
+gaff head  ketch
+gaff head cat
+gaff head cutter
+gaff topsail cutter
+gaff-yawl
+gaffhead sloop
+gunter
+gunter-yawl
+junk rig
+lateen
+masthead  ketch
+masthead  yawl
+masthead sloop
+sloop or yawl
+solent
+sprit/lug
+standing lug
+staysail ketch
+wing (multi element)

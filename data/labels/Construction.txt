@@ -1,0 +1,600 @@
+1100 dtex edpm tire/natural rubber
+abs
+abs/corelite
+abs/fg
+acp
+acp (foam & plastic sandwich)
+acp -thermo formed plastic
+advanced comp
+airex foam core
+all materials allowed
+alu
+alu multi-chine
+alu/fg
+alu/wood
+alum
+alum. or steel
+"alum., wood or grp"
+aluminium
+aluminium or frp
+aluminum
+aluminum and steel
+aluminum multi-chine
+aluminum or steel
+aluminum/fg
+any
+"balsa core sandwich set in polyester resin, exterior layer of vinylester"
+balsa sandwich infused fg hull
+biax. e glass w/dyvinicel foam core
+carbon
+carbon (pre-preg)
+carbon composite
+carbon epoxy foam
+carbon fiber
+carbon fiber composite
+carbon fiber composite foam sandwich
+carbon fiber w/corecell foam core
+"carbon fiber, vinylester, epoxy divinycell foam sandwich"
+carbon infused fg
+carbon inside/kevlar ext./scrimp
+carbon reinforced grp
+carbon w/foam core
+carbon w/honeycomb
+carbon w/sandwich
+carbon-airex foam-araldite epoxy sandwich
+carbon-epoxy sandwich
+carbon-epoxy sandwich pre-preg
+carbon/composite
+carbon/epoxy sandwich
+carbon/kevlar with foam core
+cedar planked over white oak frames
+chantier wrighton (fra)
+class rules
+cold molded
+cold molded mahogany
+cold molded or fg
+cold molded or ply with chine
+cold- molded wood
+composite
+composite infusion
+comptec pe3 polyethylene
+cored composite
+divinicell sandwich
+e glass w/vinyl/pvc core
+"e glass, corecell"
+"e glass, divinicel composite foam infused with vinylester resins"
+"e glass/foam sand.,infusion"
+e glass/pvc core/vinyl
+e-glass vinylester
+e-glass w/ epoxy vinyester + pvc foam core
+"e-glass, foam sandwich"
+e-glass/cabon
+e-glass/epoxy/foam sandwich
+e-glass/epoxy/pvc foam
+edpm tire/natural rubber
+eep particle foam
+eglass/vacuum formed sandwich
+epoxy foam sand.w/carbon
+epoxy foam sandwich
+epoxy infused carbon & foam core
+epoxy infusion
+epoxy w/ divinycell
+epoxy w/foam core
+epoxy w/foam sand
+epoxy-frp
+epoxy/atc core-cell
+epoxy/foam sand. w/carbon
+epoxy/foam sand. w/e-glass
+epoxy/foam sandwich
+ferro cement
+fg
+fg  (solid)
+fg & plywood
+fg & wood
+fg (airex core)
+fg (balsa core  cored deck and coach)
+fg (balsa core cabin trunk)
+fg (balsa cored deck)
+fg (comp)
+fg (composite)
+fg (epoxy)
+fg (foam sandwich)
+fg (infusion)
+fg (poly. core)
+fg (solid hull and balsa deck)
+fg (solid hull/balsa cored deck)
+fg (solid hull/balsa deck)
+fg (solid laminate)
+fg (solid)
+fg (solid) hull/balsa cored deck
+fg (vacuum infusion resin) w/ balsa sandwich
+fg (vacuum infusion) w/balsa core
+fg (vacuum-resin-infused)
+fg - composite
+fg - solid
+fg /balsa w/infusion
+fg /ferro cement
+fg /fm. core
+"fg airex hull, divinicell deck"
+fg airex hull/ balsa deck
+fg and pvc sandwich
+fg balsa core
+fg balsa core hull & deck
+fg balsa cored deck
+fg balsa cored hull & deck
+fg bottom/wood topsides
+fg comp
+fg composite
+fg cored deck
+fg divinycell  & vinyl
+fg divinycell  & vinyl w carbon
+fg epoxy w/pvc core
+fg foam core
+fg foam core/infusion
+fg foam core/resin infusion
+fg foam sand. coach roof and deck
+fg foam sand. hull & deck
+fg foam sandwich
+fg foam sandwich deck
+fg foam w/carbon
+fg foam/vinyl w/infusion/carbon stringers
+fg hull
+fg hull and wood deck opt
+"fg hull, fg over ply deck & cabin"
+"fg hull, wood deck"
+fg hull/wood deck
+fg hull/wood deck and cabin
+fg hull; wood coachroof
+fg infused w/pvc foam topsides and deck/vinylester
+fg infusion w/balsa & klegecell
+fg infusion w/klegecell core
+fg infusion/balsa above waterline
+fg multi chine
+fg or ply
+fg or plywood
+fg or strip plank
+fg or wood
+fg poly foam sand
+fg prepreg/nomex core
+fg pvc sandwich w/carbon
+fg reinforced vinylester with divinycell core
+fg sandwich
+fg sandwich hull & deck
+"fg sandwich ud carbon reinforcement, pvc foam"
+fg sandwich w/carbon
+fg sandwich w/kevlar
+fg sandwich with pvc foam core
+fg single chine
+fg single laminate
+fg solid
+fg solid hull&deck
+"fg solid hull, balsa cored deck"
+fg solid hull/ply sandwich deck
+fg solid hull/plywood cored deck
+fg solid hull/plywood deck
+fg solid laminate
+fg solid laminate - fabmat
+fg solid laminate below waterline
+fg solid laminate hull/ply cored deck
+fg solid laminate with balsa cored deck
+fg solid lamine hull/ cored deck
+fg twaron reiforced w/balsa deck
+fg vinylester w/balsa deck
+fg vinylester/infusion
+fg vinylester/pvc hull/balsa deck
+fg w/ airex core
+fg w/ airex cored deck
+fg w/ balsa cord deck
+fg w/ balsa cored deck
+fg w/ dc core
+fg w/ deck of vetrolex core
+fg w/ divinycell sandwich core
+fg w/ foam sandwich
+fg w/ infused vinylester; pvc foam core
+fg w/ kevlar
+fg w/ sandwich
+fg w/ vacuum infused divinycall
+fg w/ vacuum infusion
+fg w/ vinylester resin and pvc foam core
+fg w/ vinylester resin; pvc foam core
+fg w/airex core
+fg w/airex core for deck
+fg w/airex cored deck
+fg w/airex cored hull
+fg w/airex cored hull & deck
+fg w/airex hull/balsa core deck
+fg w/airex hull/klegecell deck
+fg w/airex in hull and balsa deck
+fg w/bals cored deck
+fg w/balsa core
+fg w/balsa core above waterline
+fg w/balsa core deck
+fg w/balsa core hull & deck
+fg w/balsa cored deck
+fg w/balsa cored deck & topsides
+fg w/balsa cored deck and coach
+fg w/balsa cored hull & deck
+fg w/balsa deck
+fg w/balsa deck & coach
+fg w/balsa or airex cored deck
+fg w/balsa sandwich
+fg w/carbon & airex
+fg w/carbon & kev
+fg w/carbon infusion
+fg w/closed cell foam core
+"fg w/core,composite"
+fg w/corecell foam core
+fg w/cored deck
+fg w/devinacell
+fg w/divin. deck & hull
+fg w/divinycell core
+fg w/divinycell core deck
+fg w/divinycell deck
+fg w/divinycell hull & deck
+fg w/divinycell sandwich core
+fg w/foam (polypro.) core
+fg w/foam core
+fg w/foam core & carbon beams
+fg w/foam core deck
+fg w/foam cored deck
+fg w/foam cored hull & deck
+"fg w/foam cored hull, balsa deck"
+fg w/foam pvc sandwich
+fg w/kevlar (aramat k)
+fg w/klege-cell
+fg w/klege-cell core
+fg w/klegecell
+fg w/klegecell core
+fg w/klegecell deck
+fg w/no core
+fg w/ply deck
+fg w/plywood cored deck
+fg w/poly cored deck
+fg w/poly foam sand
+"fg w/poly foam, carbon and kev"
+fg w/poly sandwich deck
+fg w/polyester foam core
+fg w/polyurethane foam sand
+fg w/pvc core
+fg w/pvc core w/infusion
+fg w/pvc foam/vinylsester
+fg w/pvc hull and balsa deck
+fg w/vacuum bagged corecell core
+fg w/vacuum infused vinylester resin
+fg w/vacuum infusion and carbon and aramid fibre
+fg w/vinylester resin
+fg with balsa and foam core
+fg with carbon-reinforced vinylester
+fg with foam core
+fg with foam core + steel frame
+fg with foam core above the waterline
+fg with kevlar reinforcement
+fg with pvc core
+fg with vacuum bonded pvc/foam
+fg with vacuum infused epoxy
+fg with vinylester resin
+fg with wood
+fg with wood deck and cabin
+"fg, pvc foam"
+"fg, pvc foam above wl"
+fg-foam cored hull-balsa deck
+fg-pvc core
+fg/ balsa cored deck
+fg/ balsa sand. deck
+fg/ e glass w/balsa core
+fg/ hull w/ airex/ deck w/balsa
+fg/ solid hull & balsa cored deck
+fg/ w/epoxy & nomex (nylon) core
+fg/abs
+fg/airex core
+fg/aluminum
+fg/balsa core deck
+fg/balsa cored deck
+fg/balsa cored foredeck
+"fg/balsa hull, airex deck"
+fg/balsa sandwich
+fg/carbon
+fg/carbon epoxy sandwich
+fg/carbon infusion
+fg/closed-cell foam and honeycomb pvc sandwich
+fg/composite
+fg/cored deck
+fg/epoxy/nomex
+fg/foam sandwich
+fg/infusion
+fg/kevlar w/balsa
+fg/klegecell
+fg/ply/alu
+fg/plywood deck
+fg/poly. core
+fg/pre-preg foam core w/carbon
+fg/sandwich
+fg/solid lam. hull/sandwich deck
+fg/solid laminate
+fg/steel
+fg/steel/wood
+fg/termanto pvc foam hull & deck
+fg/vinylester (composite infusion)
+fg/vinylester-balsa-vacuum
+fg/vinylvacuum/foam sandwich
+fg/w closed cell foam deck
+fg/wood
+fg/wood coachroof
+fg/wood deck
+fg/wood superstructure
+fg/wood/steel/alum
+fgw/balsa cored hull & deck
+fgw/carbon
+fiberglass
+foam core epoxy
+foam core epoxy laminate
+foam sad/vinylester
+foam sand. /resin infusion
+foam sand.epoxy infusion
+foam sandwich/carbon/kevlar
+foam w/carbon
+"foam-cored, vacuum-infused fg"
+frp
+frp / balsa sandwich above waterline
+frp epoxy resin with full carbon foam sandwich
+frp epoxy with carbon foam sandwich
+frp w/balsa core bottom/solid topsides
+frp w/pvc foam core
+frp with airex foam core
+frp with vinylester resin
+gf/alloy
+glass w/carbon/vinylester/pvc sand
+"glass, polyester resin, foam sandwich, vacuum infusion"
+"glass, polyester, pvc foam"
+glass/carbon fiber over foam core
+glass/kev/nomex
+grp
+grp carbon epoxy
+grp infused pvc foam sandwich
+grp monolithic construction
+grp sandwich resin infusion
+grp sandwich w/pvc foam and vinylester resin
+grp using iso/npg resin
+grp vinylester sandwich
+grp w/ pvc foam core and 1st layer vinylester resin
+grp w/ pvc foam sandwich
+"grp w/ pvc foam sandwich, polyester resin"
+grp w/ vinylester resin and balsa core
+grp w/1st layer vinylester resin
+grp w/1st layer vinylester resin and balsa sandwich
+grp w/balsa core
+grp w/balsa sandwich
+grp w/carbon fiber and foam core
+grp w/e-glass and vinylester resin
+grp w/poly sandwich deck
+grp w/polyester resin and balsa core
+grp w/pvc core
+grp w/pvc foam core
+grp w/vacuum infused polyester and vinylester
+grp w/vinylester and balsa sandwich
+grp with airex pvc foam core
+grp with foam core
+grp with vinylester
+grp with vinylester infusion
+grp-infused foam sandwich w/vinylester and polyester resin
+grp-infused pvc foam sandwich
+grp/timber
+heytex 5509 (inflatable)
+hg
+high-impact luran
+hot molded plywood
+hpde (roto molded)
+hull & deck vacuum bagged  foam sand
+infused carbon foam sandwich
+infused composite fg with vinylester resin and balsa core
+infused composite hull with vinylester resin
+infused epoxy
+infused fg composite with vinylester resin and balsa core
+infused vinylester and polyester w/ foam core
+infusion molded fg
+kevlar foam epoxy pre-preg
+kevlar w/epoxy & balsa
+mahogany
+mahogany on oak
+mahogany planked on oak
+mahogany strip planked
+marine ply w/carbon fiber and epoxy resin
+modified epoxy e-glass laminate
+molded fiberglass
+molded ply/fg
+molded plywood
+molded plywood or fg
+molded plywood/fg
+monolithic polyester contact
+multi chine - ply/epoxy/comp
+multi-chine ply w/fg
+multi-chine plyw/epoxy
+multi-chine plywood&epoxy
+natural rubber
+niels peter faurby
+plwood/multi-chine
+ply (multi-chine)/fg
+ply with single chine or fg
+ply wood
+"ply, aluminium or fg"
+ply/multi-chine/fg
+ply/single chine
+plyood/fg
+plywd. alum. fg double chine
+plywoo/fg
+plywood
+plywood & oak
+plywood 'stitch & glue'
+plywood (double chine)
+plywood (hard chine)
+plywood / fg
+plywood /single chine
+plywood epoxy
+plywood hot molded
+plywood or fg
+plywood or grp
+plywood or grp w/foam sandwich
+plywood single chine
+"plywood, double chine"
+"plywood, hard chine"
+"plywood, multi-chine"
+plywood-epoxy
+plywood-multi-chine/fg
+plywood/epoxy
+plywood/fg
+plywood/fg - single chine
+plywood/grp/frp/composite
+plywood/multi-chine
+plywood/single chine
+plywood;single chine/fg
+polyeser-pvc sandwich w/ carbon
+polyester
+polyester composite
+polyester sandwich - infused pvc foam
+polyester with balsa core hull
+polyethylene
+polyethyline
+pre-preg carbon w/nomex sand
+pvc
+"pvc foam-cored, vacuum-infused grp"
+resin infus./pvc foam hull side/balsa deck
+resin infused grp
+roto molded poly
+roto molded poly/tri-skin foam sand
+roto molded polyethylene
+roto-molded polyethylene
+roto-moulded polyethylene
+rotomolded polyethylene
+s-glass/cedar core/carbon/kevlar
+sandwich e-glass
+single chine ply/fg
+solid fg hull and deck
+solid frp
+solid lam. below waterline w kevlar
+steel
+steel (multi chine)
+steel (multichine)
+steel (single chine)
+steel (triple chine)
+steel alum. or wood
+steel or alu
+"steel, wood or grp"
+steel/alu
+steel/fg/ferro
+swing keel
+teak/fg
+techcrothene 109 (roto molded)
+tecrothene 121
+thermo plastic
+trilam polyethylene
+tubular steel
+vacuum infused composite fg with vinylester and balsa core
+vacuum infused e-glass vinylester/polyester
+vacuum infused hull
+"vacuum infused hull, sandwich balsa/ polyester"
+vacuum infused polyester with balsa core
+vacuum infusion vinylester resin with carbon fiber
+vacuum infusion vinylester resin with carbon fiber and kevlar
+vacuum-bagged resin infusion
+vacuum-infused vinylester resin
+various
+vgrp foam sandwich
+vinly w/pvc
+vinyl-ester w/carbon
+vinylester resin infused thermoformed core-cell
+"vinylester, e-glass with kevlar, foam deck"
+vinylester/fiberglass
+wood
+wood & fg
+wood ('hot molded' laminate)
+wood (carvel or ply)/fg
+wood (carvel planked)
+wood (carvel)
+wood (cedar on oak)
+wood (clinker)
+wood (clinker)/wood(carvel)
+wood (cold molded)
+wood (cold molded)/fg
+wood (hot molded veneers)
+wood (hot molded)/fg
+wood (mahog. on oak)
+wood (mahogany)
+wood (pine on oak)
+wood (plywood) w/ glass skin overlay
+wood (stitch and glue plywood)
+wood (strip planked mahogany)
+wood (strip planked)
+wood (strip. planked mahogany)
+wood (teak over elm)
+wood - (clinker)
+wood - carvel
+wood - carvel (mahogany on oak)
+wood - clinker
+wood - planked mahogany
+wood - teak
+wood / epoxy
+wood / fg
+wood / steel
+wood /fg
+wood /fg single chine
+wood and grp
+wood carvel mahog
+wood clinker
+wood clinker/fg
+wood composite
+wood composite/fg
+wood double planked
+wood lapstrake/fg
+wood mahogany
+wood mahogany on oak
+wood multi chine
+wood or fg
+"wood or fg, single chine"
+wood or fiberglass
+wood or foam core
+wood or grp
+wood plank
+wood planked
+wood planked (teak)
+wood planked hull w/plywood deck
+wood planked on steel
+wood planked single chine
+wood planked w/double chine
+"wood planked, (mahogany, oak frames)"
+wood planked/cold molded/fg
+wood planked/fg
+wood planked/molded plywood/fg
+wood single chine
+wood strip
+wood strip planked/fg w/balsa deck
+wood strip/fg
+wood with alternate steel frames
+wood(clinker)/fg
+"wood, carvel planked"
+"wood, hard chined"
+wood-clinker
+wood/ fg
+wood/alu/fg
+wood/clinker
+wood/clinker/fg
+wood/cold molded
+wood/composite
+wood/epoxy composite
+wood/fg
+wood/fg (1971)
+wood/fg w/balsa deck
+wood/fg/alu
+wood/fg/composite
+wood/fg/double chine
+wood/fg/multi chine
+wood/fg/other
+wood/fg/single chine
+wood/grp
+wood/grp/composite
+wood/hot molded veneer
+wood/hot molded veneer (agba/cedar)
+wood/ply/fg
+wood/single chine
+wood/steel
+wood/steel/fg
+wood; carvel planked

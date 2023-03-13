@@ -1,0 +1,5 @@
+
+{'loss': 3.585, 'learning_rate': 3.846153846153847e-07, 'epoch': 0.04}
+c:\Users\chris\AppData\Local\Programs\Python\Python310\lib\site-packages\PIL\Image.py:959: UserWarning: Palette images with Transparency expressed in bytes should be converted to RGBA images
+  warnings.warn(
+{'loss': 3.5782, 'learning_rate': 7.692307692307694e-07, 'epoch': 0.08}

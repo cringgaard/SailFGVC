@@ -1,0 +1,68 @@
+2023-03-08 18:03:37,856 INFO    StreamThr :4284 [internal.py:wandb_internal():88] W&B internal server running at pid: 4284, started at: 2023-03-08 18:03:37.855358
+2023-03-08 18:03:37,857 DEBUG   HandlerThread:4284 [handler.py:handle_request():138] handle_request: status
+2023-03-08 18:03:37,860 DEBUG   SenderThread:4284 [sender.py:send_request():317] send_request: status
+2023-03-08 18:03:37,863 DEBUG   SenderThread:4284 [sender.py:send():303] send: header
+2023-03-08 18:03:37,863 INFO    WriterThread:4284 [datastore.py:open_for_write():75] open: c:\Users\chris\OneDrive\Dokumenter\GitHub\SailFGVC\data\wandb\run-20230308_180337-3unlg949\run-3unlg949.wandb
+2023-03-08 18:03:37,909 DEBUG   SenderThread:4284 [sender.py:send():303] send: run
+2023-03-08 18:03:40,301 DEBUG   HandlerThread:4284 [handler.py:handle_request():138] handle_request: check_version
+2023-03-08 18:03:40,308 INFO    SenderThread:4284 [dir_watcher.py:__init__():216] watching files in: c:\Users\chris\OneDrive\Dokumenter\GitHub\SailFGVC\data\wandb\run-20230308_180337-3unlg949\files
+2023-03-08 18:03:40,308 INFO    SenderThread:4284 [sender.py:_start_run_threads():928] run started: 3unlg949 with start time 1678295017.852361
+2023-03-08 18:03:40,308 DEBUG   SenderThread:4284 [sender.py:send():303] send: summary
+2023-03-08 18:03:40,309 INFO    SenderThread:4284 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-03-08 18:03:40,309 DEBUG   SenderThread:4284 [sender.py:send_request():317] send_request: check_version
+2023-03-08 18:03:40,362 DEBUG   HandlerThread:4284 [handler.py:handle_request():138] handle_request: run_start
+2023-03-08 18:03:40,375 DEBUG   HandlerThread:4284 [meta.py:__init__():34] meta init
+2023-03-08 18:03:40,375 DEBUG   HandlerThread:4284 [meta.py:__init__():49] meta init done
+2023-03-08 18:03:40,375 DEBUG   HandlerThread:4284 [meta.py:probe():215] probe
+2023-03-08 18:03:40,392 DEBUG   HandlerThread:4284 [meta.py:_setup_git():205] setup git
+2023-03-08 18:03:40,462 DEBUG   HandlerThread:4284 [meta.py:_setup_git():212] setup git done
+2023-03-08 18:03:40,462 DEBUG   HandlerThread:4284 [meta.py:_save_pip():53] save pip
+2023-03-08 18:03:40,462 DEBUG   HandlerThread:4284 [meta.py:_save_pip():67] save pip done
+2023-03-08 18:03:40,462 DEBUG   HandlerThread:4284 [meta.py:probe():253] probe done
+2023-03-08 18:03:40,532 DEBUG   SenderThread:4284 [sender.py:send():303] send: files
+2023-03-08 18:03:40,533 INFO    SenderThread:4284 [sender.py:_save_file():1171] saving file wandb-metadata.json with policy now
+2023-03-08 18:03:40,533 DEBUG   HandlerThread:4284 [handler.py:handle_request():138] handle_request: stop_status
+2023-03-08 18:03:40,534 DEBUG   SenderThread:4284 [sender.py:send_request():317] send_request: stop_status
+2023-03-08 18:03:40,714 DEBUG   SenderThread:4284 [sender.py:send():303] send: telemetry
+2023-03-08 18:03:40,715 DEBUG   SenderThread:4284 [sender.py:send():303] send: config
+2023-03-08 18:03:40,715 DEBUG   SenderThread:4284 [sender.py:send():303] send: metric
+2023-03-08 18:03:40,715 DEBUG   SenderThread:4284 [sender.py:send():303] send: telemetry
+2023-03-08 18:03:40,715 DEBUG   SenderThread:4284 [sender.py:send():303] send: metric
+2023-03-08 18:03:40,716 WARNING SenderThread:4284 [sender.py:send_metric():1127] Seen metric with glob (shouldn't happen)
+2023-03-08 18:03:41,318 INFO    Thread-17 :4284 [dir_watcher.py:_on_file_created():275] file/dir created: c:\Users\chris\OneDrive\Dokumenter\GitHub\SailFGVC\data\wandb\run-20230308_180337-3unlg949\files\wandb-metadata.json
+2023-03-08 18:03:41,318 INFO    Thread-17 :4284 [dir_watcher.py:_on_file_created():275] file/dir created: c:\Users\chris\OneDrive\Dokumenter\GitHub\SailFGVC\data\wandb\run-20230308_180337-3unlg949\files\wandb-summary.json
+2023-03-08 18:03:41,319 INFO    Thread-17 :4284 [dir_watcher.py:_on_file_created():275] file/dir created: c:\Users\chris\OneDrive\Dokumenter\GitHub\SailFGVC\data\wandb\run-20230308_180337-3unlg949\files\requirements.txt
+2023-03-08 18:03:42,881 INFO    Thread-23 :4284 [upload_job.py:push():143] Uploaded file C:\Users\chris\AppData\Local\Temp\tmphpk842ohwandb\36lnqh72-wandb-metadata.json
+2023-03-08 18:03:55,723 DEBUG   HandlerThread:4284 [handler.py:handle_request():138] handle_request: stop_status
+2023-03-08 18:03:55,723 DEBUG   SenderThread:4284 [sender.py:send_request():317] send_request: stop_status
+2023-03-08 18:03:58,441 INFO    Thread-17 :4284 [dir_watcher.py:_on_file_created():275] file/dir created: c:\Users\chris\OneDrive\Dokumenter\GitHub\SailFGVC\data\wandb\run-20230308_180337-3unlg949\files\output.log
+2023-03-08 18:04:00,454 INFO    Thread-17 :4284 [dir_watcher.py:_on_file_modified():292] file/dir modified: c:\Users\chris\OneDrive\Dokumenter\GitHub\SailFGVC\data\wandb\run-20230308_180337-3unlg949\files\output.log
+2023-03-08 18:04:08,510 INFO    Thread-17 :4284 [dir_watcher.py:_on_file_modified():292] file/dir modified: c:\Users\chris\OneDrive\Dokumenter\GitHub\SailFGVC\data\wandb\run-20230308_180337-3unlg949\files\config.yaml
+2023-03-08 18:04:09,852 DEBUG   HandlerThread:4284 [handler.py:handle_request():138] handle_request: partial_history
+2023-03-08 18:04:09,853 DEBUG   SenderThread:4284 [sender.py:send():303] send: metric
+2023-03-08 18:04:09,853 DEBUG   SenderThread:4284 [sender.py:send():303] send: metric
+2023-03-08 18:04:09,853 DEBUG   SenderThread:4284 [sender.py:send():303] send: metric
+2023-03-08 18:04:09,853 DEBUG   SenderThread:4284 [sender.py:send():303] send: history
+2023-03-08 18:04:09,853 DEBUG   SenderThread:4284 [sender.py:send():303] send: summary
+2023-03-08 18:04:09,854 INFO    SenderThread:4284 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-03-08 18:04:10,526 INFO    Thread-17 :4284 [dir_watcher.py:_on_file_modified():292] file/dir modified: c:\Users\chris\OneDrive\Dokumenter\GitHub\SailFGVC\data\wandb\run-20230308_180337-3unlg949\files\wandb-summary.json
+2023-03-08 18:04:10,930 DEBUG   HandlerThread:4284 [handler.py:handle_request():138] handle_request: stop_status
+2023-03-08 18:04:10,930 DEBUG   SenderThread:4284 [sender.py:send_request():317] send_request: stop_status
+2023-03-08 18:04:11,420 DEBUG   SenderThread:4284 [sender.py:send():303] send: stats
+2023-03-08 18:04:12,542 INFO    Thread-17 :4284 [dir_watcher.py:_on_file_modified():292] file/dir modified: c:\Users\chris\OneDrive\Dokumenter\GitHub\SailFGVC\data\wandb\run-20230308_180337-3unlg949\files\output.log
+2023-03-08 18:04:26,130 DEBUG   HandlerThread:4284 [handler.py:handle_request():138] handle_request: stop_status
+2023-03-08 18:04:26,130 DEBUG   SenderThread:4284 [sender.py:send_request():317] send_request: stop_status
+2023-03-08 18:04:34,583 DEBUG   HandlerThread:4284 [handler.py:handle_request():138] handle_request: pause
+2023-03-08 18:04:34,583 INFO    HandlerThread:4284 [handler.py:handle_request_pause():696] stopping system metrics thread
+2023-03-08 18:04:34,700 DEBUG   SenderThread:4284 [sender.py:send():303] send: stats
+2023-03-08 18:04:38,755 INFO    Thread-17 :4284 [dir_watcher.py:_on_file_modified():292] file/dir modified: c:\Users\chris\OneDrive\Dokumenter\GitHub\SailFGVC\data\wandb\run-20230308_180337-3unlg949\files\config.yaml
+2023-03-08 18:04:41,316 DEBUG   HandlerThread:4284 [handler.py:handle_request():138] handle_request: stop_status
+2023-03-08 18:04:41,316 DEBUG   SenderThread:4284 [sender.py:send_request():317] send_request: stop_status
+2023-03-08 18:04:56,507 DEBUG   HandlerThread:4284 [handler.py:handle_request():138] handle_request: stop_status
+2023-03-08 18:04:56,507 DEBUG   SenderThread:4284 [sender.py:send_request():317] send_request: stop_status
+2023-03-08 18:05:11,711 DEBUG   HandlerThread:4284 [handler.py:handle_request():138] handle_request: stop_status
+2023-03-08 18:05:11,711 DEBUG   SenderThread:4284 [sender.py:send_request():317] send_request: stop_status
+2023-03-08 18:05:26,910 DEBUG   HandlerThread:4284 [handler.py:handle_request():138] handle_request: stop_status
+2023-03-08 18:05:26,910 DEBUG   SenderThread:4284 [sender.py:send_request():317] send_request: stop_status
+2023-03-08 18:05:42,132 DEBUG   HandlerThread:4284 [handler.py:handle_request():138] handle_request: stop_status
+2023-03-08 18:05:42,132 DEBUG   SenderThread:4284 [sender.py:send_request():317] send_request: stop_status

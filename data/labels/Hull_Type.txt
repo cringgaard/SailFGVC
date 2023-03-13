@@ -1,0 +1,67 @@
+catamaran (no boards/asym.)
+catamaran single cntrboard
+catamaran single dbrd
+catamaran twin cbrd
+catamaran twin dbrd
+catamaran twin keel
+catamaran w/foils
+cbrd (trunk) w/dual rudders
+cbrd w/outboard rudder
+centerboard (trunk)
+centerboard dinghy
+daggerboard
+dbrd. dinghy
+double-ended with leeboards
+double-ended with long keel
+fin (shoal draft)
+fin keel
+fin keel w/bulb
+fin w/bulb & dual rudders
+fin w/bulb & spade rudder
+fin w/bulb and transom hung rudder
+fin w/dual rudders
+fin w/rudder on partial skeg
+fin w/spade rudder
+fin w/transom hung rudder
+fin with rudder on skeg
+foiling monohull
+foiling trimaran
+full keel
+full keel with attached rudder
+iceboat (bow steerer)
+keel/cb & spade rudder
+keel/cb w/dual rudders
+keel/cb w/rudder on skeg
+keel/cbrd
+leeboard
+lifting keel
+"lifting keel w/bulb, trans. hung rudder"
+lifting keel w/bulb; spade rudder
+lifting keel with dual rudders
+long keel
+long keel w/rudder on skeg
+long keel w/trans. hung rudder
+long keel w/two centerboards
+modified full keel
+pram (centerboard)
+pram (daggerboard)
+pram (leeboard)
+scow sngl. cbrd
+scow twin cbrd
+sheel keel
+swing keel
+swing keel w/dual rudders
+swing keel w/outboard rudder
+tandem keel
+tandem keel w/spade rudder
+trimaran cbrd
+trimaran dbrd
+trimaran with fixed unballasted keel
+triple keel
+twin centerboards
+twin daggerboards
+twin drop plates
+twin keel
+twin keels with dual rudders
+wing keel
+wing keel w/spade rudder
