@@ -1,0 +1,17 @@
+{
+    "os": "Windows-10-10.0.19044-SP0",
+    "python": "3.10.7",
+    "heartbeatAt": "2023-03-21T21:35:50.796770",
+    "startedAt": "2023-03-21T21:35:50.248894",
+    "docker": null,
+    "gpu": "NVIDIA GeForce RTX 3070",
+    "gpu_count": 1,
+    "cpu_count": 32,
+    "cuda": null,
+    "args": null,
+    "state": "running",
+    "program": "<python with no main file>",
+    "host": "DESKTOP-78HEDU9",
+    "username": "chris",
+    "executable": "c:\\Users\\chris\\AppData\\Local\\Programs\\Python\\Python310\\python.exe"
+}

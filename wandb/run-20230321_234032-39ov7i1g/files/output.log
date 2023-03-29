@@ -1,0 +1,377 @@
+Loading cached split indices for dataset at C:\Users\chris\.cache\huggingface\datasets\cringgaard___boats_dataset\default\0.0.0\cf118af5708518fea28486aed25e2f1632c5b8d5e716255a840c5c012a2b161b\cache-7e02f6d0f03e0fc9.arrow and C:\Users\chris\.cache\huggingface\datasets\cringgaard___boats_dataset\default\0.0.0\cf118af5708518fea28486aed25e2f1632c5b8d5e716255a840c5c012a2b161b\cache-18fdfce3e1669319.arrow
+Loading cached processed dataset at C:\Users\chris\.cache\huggingface\datasets\cringgaard___boats_dataset\default\0.0.0\cf118af5708518fea28486aed25e2f1632c5b8d5e716255a840c5c012a2b161b\cache-ba86150308d13aed.arrow
+Loading cached processed dataset at C:\Users\chris\.cache\huggingface\datasets\cringgaard___boats_dataset\default\0.0.0\cf118af5708518fea28486aed25e2f1632c5b8d5e716255a840c5c012a2b161b\cache-863f23ab075eb295.arrow
+Some weights of ResNetForImageClassification were not initialized from the model checkpoint at microsoft/resnet-18 and are newly initialized because the shapes did not match:
+- classifier.1.weight: found shape torch.Size([1000, 512]) in the checkpoint and torch.Size([67, 512]) in the model instantiated
+- classifier.1.bias: found shape torch.Size([1000]) in the checkpoint and torch.Size([67]) in the model instantiated
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+Setting `WANDB_LOG_MODEL` from true to `end` instead
+c:\Users\chris\AppData\Local\Programs\Python\Python310\lib\site-packages\transformers\optimization.py:306: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
+  warnings.warn(
+***** Running training *****
+  Num examples = 8323
+  Num Epochs = 15
+  Instantaneous batch size per device = 16
+  Total train batch size (w. parallel, distributed & accumulation) = 64
+  Gradient Accumulation steps = 4
+  Total optimization steps = 1950
+  Number of trainable parameters = 11210883
+Automatic Weights & Biases logging enabled, to disable set os.environ["WANDB_DISABLED"] = "true"
+[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 66]
+[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 56, 57, 59, 60, 61, 62]
+[]
+['Fin w/bulb & spade rudder', 'Centerboard Dinghy', 'Dbrd. Dinghy', 'Fin w/spade rudder', 'Fin with rudder on skeg', 'Fin Keel', 'Swing Keel', 'Centerboard (Trunk)', 'Keel/Cbrd.', 'Long Keel', 'Full keel with attached rudder', 'Foiling Monohull', 'Fin w/transom hung rudder', 'Lifting Keel', 'Catamaran Twin Dbrd.', 'Scow Twin Cbrd.', 'Catamaran Twin Cbrd.', 'Catamaran Twin Keel', 'Fin w/bulb & dual rudders', 'Fin w/bulb and transom hung rudder', 'Twin Keel', 'Long keel w/trans. hung rudder', 'Modified Full Keel', 'Keel/CB & spade rudder', 'Keel/CB w/dual rudders', 'Wing Keel', 'Fin (shoal draft)', 'Full Keel', 'Fin w/rudder on partial skeg', 'Catamaran Single Dbrd.', 'Fin Keel w/bulb', 'Cbrd w/outboard rudder', 'Trimaran Dbrd.', 'Trimaran Cbrd.', 'Twin Centerboards', 'Triple Keel', 'Cbrd (trunk) w/dual rudders', 'Sheel Keel', 'Lifting keel with dual rudders', 'Leeboard', 'Long keel w/rudder on skeg', 'Twin Daggerboards', 'Pram (Centerboard)', 'Scow Sngl. Cbrd.', 'Swing keel w/outboard rudder', 'Catamaran (no boards/asym.)', 'Daggerboard', 'Pram (Daggerboard)', 'Wing keel w/spade rudder', 'Trimaran with fixed unballasted keel', 'Fin w/dual rudders', 'Twin keels with dual rudders', 'Iceboat (bow steerer)', 'Double-ended with leeboards', 'Twin drop plates', 'Tandem keel', 'Tandem keel w/spade rudder', 'Swing keel w/dual rudders', 'Catamaran w/foils', 'Lifting keel w/bulb, trans. hung rudder', 'Catamaran Single Cntrboard', 'Foiling Trimaran', 'Lifting keel w/bulb; spade rudder', 'Pram (Leeboard)', 'Double-ended with long keel', 'Long keel w/two centerboards', 'Keel/CB w/rudder on skeg']
+{'loss': 4.1611, 'learning_rate': 2.564102564102564e-06, 'epoch': 0.08}
+{'loss': 4.146, 'learning_rate': 5.128205128205128e-06, 'epoch': 0.15}
+{'loss': 4.0692, 'learning_rate': 7.692307692307694e-06, 'epoch': 0.23}
+{'loss': 4.0921, 'learning_rate': 1.0256410256410256e-05, 'epoch': 0.31}
+{'loss': 3.949, 'learning_rate': 1.282051282051282e-05, 'epoch': 0.38}
+{'loss': 3.883, 'learning_rate': 1.5384615384615387e-05, 'epoch': 0.46}
+{'loss': 3.7692, 'learning_rate': 1.794871794871795e-05, 'epoch': 0.54}
+{'loss': 3.776, 'learning_rate': 2.0512820512820512e-05, 'epoch': 0.61}
+{'loss': 3.6667, 'learning_rate': 2.307692307692308e-05, 'epoch': 0.69}
+c:\Users\chris\AppData\Local\Programs\Python\Python310\lib\site-packages\PIL\Image.py:959: UserWarning: Palette images with Transparency expressed in bytes should be converted to RGBA images
+  warnings.warn(
+{'loss': 3.5115, 'learning_rate': 2.564102564102564e-05, 'epoch': 0.77}
+{'loss': 3.5257, 'learning_rate': 2.8205128205128207e-05, 'epoch': 0.84}
+{'loss': 3.3046, 'learning_rate': 3.0769230769230774e-05, 'epoch': 0.92}
+***** Running Evaluation *****
+  Num examples = 2081
+  Batch size = 16
+{'loss': 3.3055, 'learning_rate': 3.3333333333333335e-05, 'epoch': 1.0}
+Saving model checkpoint to models/model_Hull Type\checkpoint-130
+Configuration saved in models/model_Hull Type\checkpoint-130\config.json
+Model weights saved in models/model_Hull Type\checkpoint-130\pytorch_model.bin
+Image processor saved in models/model_Hull Type\checkpoint-130\preprocessor_config.json
+{'eval_loss': 3.2208919525146484, 'eval_accuracy': 0.1850072080730418, 'eval_f1': 0.18500720807304183, 'eval_precision': 0.1850072080730418, 'eval_recall': 0.1850072080730418, 'eval_runtime': 11.9495, 'eval_samples_per_second': 174.149, 'eval_steps_per_second': 10.963, 'epoch': 1.0}
+{'loss': 3.1938, 'learning_rate': 3.58974358974359e-05, 'epoch': 1.08}
+{'loss': 2.99, 'learning_rate': 3.846153846153846e-05, 'epoch': 1.15}
+{'loss': 2.9722, 'learning_rate': 4.1025641025641023e-05, 'epoch': 1.23}
+{'loss': 2.9223, 'learning_rate': 4.358974358974359e-05, 'epoch': 1.31}
+{'loss': 2.7403, 'learning_rate': 4.615384615384616e-05, 'epoch': 1.38}
+{'loss': 2.7493, 'learning_rate': 4.871794871794872e-05, 'epoch': 1.46}
+{'loss': 2.7498, 'learning_rate': 4.985754985754986e-05, 'epoch': 1.54}
+{'loss': 2.6797, 'learning_rate': 4.9572649572649575e-05, 'epoch': 1.61}
+{'loss': 2.6635, 'learning_rate': 4.928774928774929e-05, 'epoch': 1.69}
+c:\Users\chris\AppData\Local\Programs\Python\Python310\lib\site-packages\PIL\Image.py:959: UserWarning: Palette images with Transparency expressed in bytes should be converted to RGBA images
+  warnings.warn(
+{'loss': 2.4926, 'learning_rate': 4.9002849002849004e-05, 'epoch': 1.77}
+{'loss': 2.673, 'learning_rate': 4.871794871794872e-05, 'epoch': 1.84}
+{'loss': 2.524, 'learning_rate': 4.8433048433048433e-05, 'epoch': 1.92}
+***** Running Evaluation *****
+  Num examples = 2081
+  Batch size = 16
+{'loss': 2.5553, 'learning_rate': 4.814814814814815e-05, 'epoch': 2.0}
+Saving model checkpoint to models/model_Hull Type\checkpoint-260
+Configuration saved in models/model_Hull Type\checkpoint-260\config.json
+Model weights saved in models/model_Hull Type\checkpoint-260\pytorch_model.bin
+Image processor saved in models/model_Hull Type\checkpoint-260\preprocessor_config.json
+{'eval_loss': 2.599489688873291, 'eval_accuracy': 0.2873618452666987, 'eval_f1': 0.2873618452666987, 'eval_precision': 0.2873618452666987, 'eval_recall': 0.2873618452666987, 'eval_runtime': 11.7261, 'eval_samples_per_second': 177.467, 'eval_steps_per_second': 11.172, 'epoch': 2.0}
+{'loss': 2.5664, 'learning_rate': 4.786324786324787e-05, 'epoch': 2.08}
+{'loss': 2.4445, 'learning_rate': 4.7578347578347584e-05, 'epoch': 2.15}
+{'loss': 2.529, 'learning_rate': 4.72934472934473e-05, 'epoch': 2.23}
+c:\Users\chris\AppData\Local\Programs\Python\Python310\lib\site-packages\PIL\Image.py:959: UserWarning: Palette images with Transparency expressed in bytes should be converted to RGBA images
+  warnings.warn(
+{'loss': 2.4595, 'learning_rate': 4.700854700854701e-05, 'epoch': 2.31}
+{'loss': 2.4581, 'learning_rate': 4.672364672364672e-05, 'epoch': 2.38}
+{'loss': 2.505, 'learning_rate': 4.643874643874644e-05, 'epoch': 2.46}
+{'loss': 2.4644, 'learning_rate': 4.615384615384616e-05, 'epoch': 2.54}
+{'loss': 2.3801, 'learning_rate': 4.586894586894587e-05, 'epoch': 2.61}
+{'loss': 2.4231, 'learning_rate': 4.558404558404559e-05, 'epoch': 2.69}
+{'loss': 2.3465, 'learning_rate': 4.52991452991453e-05, 'epoch': 2.77}
+{'loss': 2.4727, 'learning_rate': 4.501424501424502e-05, 'epoch': 2.84}
+{'loss': 2.4545, 'learning_rate': 4.472934472934473e-05, 'epoch': 2.92}
+***** Running Evaluation *****
+  Num examples = 2081
+  Batch size = 16
+{'loss': 2.3566, 'learning_rate': 4.4444444444444447e-05, 'epoch': 3.0}
+Saving model checkpoint to models/model_Hull Type\checkpoint-390
+Configuration saved in models/model_Hull Type\checkpoint-390\config.json
+Model weights saved in models/model_Hull Type\checkpoint-390\pytorch_model.bin
+Image processor saved in models/model_Hull Type\checkpoint-390\preprocessor_config.json
+{'eval_loss': 2.4547839164733887, 'eval_accuracy': 0.3209995194617972, 'eval_f1': 0.3209995194617972, 'eval_precision': 0.3209995194617972, 'eval_recall': 0.3209995194617972, 'eval_runtime': 11.8006, 'eval_samples_per_second': 176.346, 'eval_steps_per_second': 11.101, 'epoch': 3.0}
+{'loss': 2.356, 'learning_rate': 4.415954415954416e-05, 'epoch': 3.08}
+{'loss': 2.3077, 'learning_rate': 4.3874643874643876e-05, 'epoch': 3.15}
+{'loss': 2.2747, 'learning_rate': 4.358974358974359e-05, 'epoch': 3.23}
+{'loss': 2.285, 'learning_rate': 4.3304843304843306e-05, 'epoch': 3.31}
+{'loss': 2.3466, 'learning_rate': 4.301994301994302e-05, 'epoch': 3.38}
+c:\Users\chris\AppData\Local\Programs\Python\Python310\lib\site-packages\PIL\Image.py:959: UserWarning: Palette images with Transparency expressed in bytes should be converted to RGBA images
+  warnings.warn(
+{'loss': 2.3023, 'learning_rate': 4.2735042735042735e-05, 'epoch': 3.46}
+{'loss': 2.3293, 'learning_rate': 4.2450142450142457e-05, 'epoch': 3.54}
+{'loss': 2.2688, 'learning_rate': 4.216524216524217e-05, 'epoch': 3.61}
+{'loss': 2.2513, 'learning_rate': 4.1880341880341886e-05, 'epoch': 3.69}
+{'loss': 2.3482, 'learning_rate': 4.15954415954416e-05, 'epoch': 3.77}
+{'loss': 2.3645, 'learning_rate': 4.131054131054131e-05, 'epoch': 3.84}
+{'loss': 2.2354, 'learning_rate': 4.1025641025641023e-05, 'epoch': 3.92}
+***** Running Evaluation *****
+  Num examples = 2081
+  Batch size = 16
+{'loss': 2.4292, 'learning_rate': 4.074074074074074e-05, 'epoch': 4.0}
+Saving model checkpoint to models/model_Hull Type\checkpoint-520
+Configuration saved in models/model_Hull Type\checkpoint-520\config.json
+Model weights saved in models/model_Hull Type\checkpoint-520\pytorch_model.bin
+Image processor saved in models/model_Hull Type\checkpoint-520\preprocessor_config.json
+{'eval_loss': 2.4170379638671875, 'eval_accuracy': 0.32388274867851996, 'eval_f1': 0.32388274867851996, 'eval_precision': 0.32388274867851996, 'eval_recall': 0.32388274867851996, 'eval_runtime': 11.8967, 'eval_samples_per_second': 174.923, 'eval_steps_per_second': 11.011, 'epoch': 4.0}
+c:\Users\chris\AppData\Local\Programs\Python\Python310\lib\site-packages\PIL\Image.py:959: UserWarning: Palette images with Transparency expressed in bytes should be converted to RGBA images
+  warnings.warn(
+{'loss': 2.3119, 'learning_rate': 4.045584045584046e-05, 'epoch': 4.08}
+{'loss': 2.1755, 'learning_rate': 4.0170940170940174e-05, 'epoch': 4.15}
+{'loss': 2.2791, 'learning_rate': 3.988603988603989e-05, 'epoch': 4.23}
+{'loss': 2.2485, 'learning_rate': 3.9601139601139604e-05, 'epoch': 4.31}
+{'loss': 2.2582, 'learning_rate': 3.931623931623932e-05, 'epoch': 4.38}
+{'loss': 2.223, 'learning_rate': 3.903133903133903e-05, 'epoch': 4.46}
+{'loss': 2.2201, 'learning_rate': 3.874643874643875e-05, 'epoch': 4.54}
+{'loss': 2.2237, 'learning_rate': 3.846153846153846e-05, 'epoch': 4.61}
+{'loss': 2.292, 'learning_rate': 3.817663817663818e-05, 'epoch': 4.69}
+{'loss': 2.1378, 'learning_rate': 3.789173789173789e-05, 'epoch': 4.77}
+{'loss': 2.2269, 'learning_rate': 3.760683760683761e-05, 'epoch': 4.84}
+{'loss': 2.242, 'learning_rate': 3.732193732193732e-05, 'epoch': 4.92}
+{'loss': 2.1022, 'learning_rate': 3.7037037037037037e-05, 'epoch': 5.0}
+***** Running Evaluation *****
+  Num examples = 2081
+  Batch size = 16
+Saving model checkpoint to models/model_Hull Type\checkpoint-650
+Configuration saved in models/model_Hull Type\checkpoint-650\config.json
+Model weights saved in models/model_Hull Type\checkpoint-650\pytorch_model.bin
+Image processor saved in models/model_Hull Type\checkpoint-650\preprocessor_config.json
+{'eval_loss': 2.3508803844451904, 'eval_accuracy': 0.33349351273426237, 'eval_f1': 0.33349351273426237, 'eval_precision': 0.33349351273426237, 'eval_recall': 0.33349351273426237, 'eval_runtime': 11.9266, 'eval_samples_per_second': 174.484, 'eval_steps_per_second': 10.984, 'epoch': 5.0}
+{'loss': 2.1852, 'learning_rate': 3.675213675213676e-05, 'epoch': 5.08}
+{'loss': 2.2561, 'learning_rate': 3.646723646723647e-05, 'epoch': 5.15}
+{'loss': 2.1143, 'learning_rate': 3.618233618233619e-05, 'epoch': 5.23}
+c:\Users\chris\AppData\Local\Programs\Python\Python310\lib\site-packages\PIL\Image.py:959: UserWarning: Palette images with Transparency expressed in bytes should be converted to RGBA images
+  warnings.warn(
+{'loss': 2.0825, 'learning_rate': 3.58974358974359e-05, 'epoch': 5.31}
+{'loss': 2.1137, 'learning_rate': 3.561253561253561e-05, 'epoch': 5.38}
+{'loss': 2.073, 'learning_rate': 3.5327635327635325e-05, 'epoch': 5.46}
+{'loss': 2.1504, 'learning_rate': 3.504273504273504e-05, 'epoch': 5.54}
+{'loss': 2.0755, 'learning_rate': 3.475783475783476e-05, 'epoch': 5.61}
+{'loss': 2.2552, 'learning_rate': 3.4472934472934476e-05, 'epoch': 5.69}
+{'loss': 2.2566, 'learning_rate': 3.418803418803419e-05, 'epoch': 5.77}
+{'loss': 2.0882, 'learning_rate': 3.3903133903133905e-05, 'epoch': 5.84}
+{'loss': 2.2012, 'learning_rate': 3.361823361823362e-05, 'epoch': 5.92}
+***** Running Evaluation *****
+  Num examples = 2081
+  Batch size = 16
+{'loss': 2.0702, 'learning_rate': 3.3333333333333335e-05, 'epoch': 6.0}
+Saving model checkpoint to models/model_Hull Type\checkpoint-780
+Configuration saved in models/model_Hull Type\checkpoint-780\config.json
+Model weights saved in models/model_Hull Type\checkpoint-780\pytorch_model.bin
+Image processor saved in models/model_Hull Type\checkpoint-780\preprocessor_config.json
+{'eval_loss': 2.3302512168884277, 'eval_accuracy': 0.3546371936568957, 'eval_f1': 0.3546371936568957, 'eval_precision': 0.3546371936568957, 'eval_recall': 0.3546371936568957, 'eval_runtime': 11.9855, 'eval_samples_per_second': 173.626, 'eval_steps_per_second': 10.93, 'epoch': 6.0}
+{'loss': 2.132, 'learning_rate': 3.304843304843305e-05, 'epoch': 6.08}
+{'loss': 2.1604, 'learning_rate': 3.2763532763532764e-05, 'epoch': 6.15}
+{'loss': 2.032, 'learning_rate': 3.247863247863248e-05, 'epoch': 6.23}
+{'loss': 2.1093, 'learning_rate': 3.2193732193732194e-05, 'epoch': 6.31}
+{'loss': 2.086, 'learning_rate': 3.190883190883191e-05, 'epoch': 6.38}
+{'loss': 2.0762, 'learning_rate': 3.162393162393162e-05, 'epoch': 6.46}
+{'loss': 2.0404, 'learning_rate': 3.133903133903134e-05, 'epoch': 6.54}
+{'loss': 2.0518, 'learning_rate': 3.105413105413106e-05, 'epoch': 6.61}
+{'loss': 2.0416, 'learning_rate': 3.0769230769230774e-05, 'epoch': 6.69}
+{'loss': 2.1005, 'learning_rate': 3.0484330484330486e-05, 'epoch': 6.77}
+{'loss': 2.1043, 'learning_rate': 3.01994301994302e-05, 'epoch': 6.84}
+c:\Users\chris\AppData\Local\Programs\Python\Python310\lib\site-packages\PIL\Image.py:959: UserWarning: Palette images with Transparency expressed in bytes should be converted to RGBA images
+  warnings.warn(
+{'loss': 2.1721, 'learning_rate': 2.9914529914529915e-05, 'epoch': 6.92}
+***** Running Evaluation *****
+  Num examples = 2081
+  Batch size = 16
+{'loss': 2.1068, 'learning_rate': 2.962962962962963e-05, 'epoch': 7.0}
+{'eval_loss': 2.3166441917419434, 'eval_accuracy': 0.36328688130706394, 'eval_f1': 0.36328688130706394, 'eval_precision': 0.36328688130706394, 'eval_recall': 0.36328688130706394, 'eval_runtime': 11.8741, 'eval_samples_per_second': 175.255, 'eval_steps_per_second': 11.032, 'epoch': 7.0}
+Saving model checkpoint to models/model_Hull Type\checkpoint-910
+Configuration saved in models/model_Hull Type\checkpoint-910\config.json
+Model weights saved in models/model_Hull Type\checkpoint-910\pytorch_model.bin
+Image processor saved in models/model_Hull Type\checkpoint-910\preprocessor_config.json
+{'loss': 2.0642, 'learning_rate': 2.9344729344729345e-05, 'epoch': 7.08}
+{'loss': 2.0359, 'learning_rate': 2.9059829059829063e-05, 'epoch': 7.15}
+{'loss': 2.0703, 'learning_rate': 2.8774928774928778e-05, 'epoch': 7.23}
+c:\Users\chris\AppData\Local\Programs\Python\Python310\lib\site-packages\PIL\Image.py:959: UserWarning: Palette images with Transparency expressed in bytes should be converted to RGBA images
+  warnings.warn(
+{'loss': 2.0757, 'learning_rate': 2.8490028490028492e-05, 'epoch': 7.31}
+{'loss': 2.1105, 'learning_rate': 2.8205128205128207e-05, 'epoch': 7.38}
+{'loss': 2.0513, 'learning_rate': 2.7920227920227922e-05, 'epoch': 7.46}
+{'loss': 2.14, 'learning_rate': 2.7635327635327633e-05, 'epoch': 7.54}
+{'loss': 2.0382, 'learning_rate': 2.7350427350427355e-05, 'epoch': 7.61}
+{'loss': 2.0331, 'learning_rate': 2.706552706552707e-05, 'epoch': 7.69}
+{'loss': 1.973, 'learning_rate': 2.6780626780626784e-05, 'epoch': 7.77}
+{'loss': 1.997, 'learning_rate': 2.64957264957265e-05, 'epoch': 7.84}
+{'loss': 2.0122, 'learning_rate': 2.621082621082621e-05, 'epoch': 7.92}
+{'loss': 1.985, 'learning_rate': 2.5925925925925925e-05, 'epoch': 8.0}
+***** Running Evaluation *****
+  Num examples = 2081
+  Batch size = 16
+Saving model checkpoint to models/model_Hull Type\checkpoint-1040
+Configuration saved in models/model_Hull Type\checkpoint-1040\config.json
+Model weights saved in models/model_Hull Type\checkpoint-1040\pytorch_model.bin
+Image processor saved in models/model_Hull Type\checkpoint-1040\preprocessor_config.json
+{'eval_loss': 2.2971432209014893, 'eval_accuracy': 0.3531955790485344, 'eval_f1': 0.3531955790485344, 'eval_precision': 0.3531955790485344, 'eval_recall': 0.3531955790485344, 'eval_runtime': 11.8861, 'eval_samples_per_second': 175.078, 'eval_steps_per_second': 11.021, 'epoch': 8.0}
+{'loss': 2.0422, 'learning_rate': 2.564102564102564e-05, 'epoch': 8.08}
+{'loss': 2.0294, 'learning_rate': 2.535612535612536e-05, 'epoch': 8.15}
+{'loss': 2.0049, 'learning_rate': 2.5071225071225073e-05, 'epoch': 8.23}
+c:\Users\chris\AppData\Local\Programs\Python\Python310\lib\site-packages\PIL\Image.py:959: UserWarning: Palette images with Transparency expressed in bytes should be converted to RGBA images
+  warnings.warn(
+{'loss': 2.0594, 'learning_rate': 2.4786324786324787e-05, 'epoch': 8.31}
+{'loss': 1.9038, 'learning_rate': 2.4501424501424502e-05, 'epoch': 8.38}
+{'loss': 2.0199, 'learning_rate': 2.4216524216524217e-05, 'epoch': 8.46}
+{'loss': 1.9556, 'learning_rate': 2.3931623931623935e-05, 'epoch': 8.54}
+{'loss': 1.9217, 'learning_rate': 2.364672364672365e-05, 'epoch': 8.61}
+{'loss': 1.9513, 'learning_rate': 2.336182336182336e-05, 'epoch': 8.69}
+{'loss': 2.0561, 'learning_rate': 2.307692307692308e-05, 'epoch': 8.77}
+{'loss': 1.9745, 'learning_rate': 2.2792022792022794e-05, 'epoch': 8.84}
+{'loss': 2.0302, 'learning_rate': 2.250712250712251e-05, 'epoch': 8.92}
+***** Running Evaluation *****
+  Num examples = 2081
+  Batch size = 16
+{'loss': 1.9935, 'learning_rate': 2.2222222222222223e-05, 'epoch': 9.0}
+Saving model checkpoint to models/model_Hull Type\checkpoint-1170
+Configuration saved in models/model_Hull Type\checkpoint-1170\config.json
+{'eval_loss': 2.2466793060302734, 'eval_accuracy': 0.35559827006246997, 'eval_f1': 0.35559827006246997, 'eval_precision': 0.35559827006246997, 'eval_recall': 0.35559827006246997, 'eval_runtime': 11.594, 'eval_samples_per_second': 179.489, 'eval_steps_per_second': 11.299, 'epoch': 9.0}
+Model weights saved in models/model_Hull Type\checkpoint-1170\pytorch_model.bin
+Image processor saved in models/model_Hull Type\checkpoint-1170\preprocessor_config.json
+{'loss': 2.0288, 'learning_rate': 2.1937321937321938e-05, 'epoch': 9.08}
+{'loss': 1.9381, 'learning_rate': 2.1652421652421653e-05, 'epoch': 9.15}
+{'loss': 1.9368, 'learning_rate': 2.1367521367521368e-05, 'epoch': 9.23}
+{'loss': 1.9203, 'learning_rate': 2.1082621082621086e-05, 'epoch': 9.31}
+{'loss': 2.0274, 'learning_rate': 2.07977207977208e-05, 'epoch': 9.38}
+{'loss': 1.9087, 'learning_rate': 2.0512820512820512e-05, 'epoch': 9.46}
+{'loss': 1.9215, 'learning_rate': 2.022792022792023e-05, 'epoch': 9.54}
+{'loss': 1.9883, 'learning_rate': 1.9943019943019945e-05, 'epoch': 9.61}
+{'loss': 1.8944, 'learning_rate': 1.965811965811966e-05, 'epoch': 9.69}
+{'loss': 1.9489, 'learning_rate': 1.9373219373219374e-05, 'epoch': 9.77}
+{'loss': 1.9767, 'learning_rate': 1.908831908831909e-05, 'epoch': 9.84}
+c:\Users\chris\AppData\Local\Programs\Python\Python310\lib\site-packages\PIL\Image.py:959: UserWarning: Palette images with Transparency expressed in bytes should be converted to RGBA images
+  warnings.warn(
+{'loss': 1.9364, 'learning_rate': 1.8803418803418804e-05, 'epoch': 9.92}
+{'loss': 1.9783, 'learning_rate': 1.8518518518518518e-05, 'epoch': 10.0}
+***** Running Evaluation *****
+  Num examples = 2081
+  Batch size = 16
+Saving model checkpoint to models/model_Hull Type\checkpoint-1300
+Configuration saved in models/model_Hull Type\checkpoint-1300\config.json
+Model weights saved in models/model_Hull Type\checkpoint-1300\pytorch_model.bin
+Image processor saved in models/model_Hull Type\checkpoint-1300\preprocessor_config.json
+{'eval_loss': 2.292152166366577, 'eval_accuracy': 0.351753964440173, 'eval_f1': 0.351753964440173, 'eval_precision': 0.351753964440173, 'eval_recall': 0.351753964440173, 'eval_runtime': 11.701, 'eval_samples_per_second': 177.848, 'eval_steps_per_second': 11.196, 'epoch': 10.0}
+{'loss': 1.8971, 'learning_rate': 1.8233618233618236e-05, 'epoch': 10.08}
+{'loss': 1.851, 'learning_rate': 1.794871794871795e-05, 'epoch': 10.15}
+{'loss': 1.8832, 'learning_rate': 1.7663817663817662e-05, 'epoch': 10.23}
+{'loss': 1.9474, 'learning_rate': 1.737891737891738e-05, 'epoch': 10.31}
+{'loss': 1.9388, 'learning_rate': 1.7094017094017095e-05, 'epoch': 10.38}
+{'loss': 1.9383, 'learning_rate': 1.680911680911681e-05, 'epoch': 10.46}
+{'loss': 1.9485, 'learning_rate': 1.6524216524216525e-05, 'epoch': 10.54}
+{'loss': 1.9324, 'learning_rate': 1.623931623931624e-05, 'epoch': 10.61}
+{'loss': 1.9316, 'learning_rate': 1.5954415954415954e-05, 'epoch': 10.69}
+{'loss': 1.8952, 'learning_rate': 1.566951566951567e-05, 'epoch': 10.77}
+{'loss': 1.9739, 'learning_rate': 1.5384615384615387e-05, 'epoch': 10.84}
+{'loss': 1.8533, 'learning_rate': 1.50997150997151e-05, 'epoch': 10.92}
+c:\Users\chris\AppData\Local\Programs\Python\Python310\lib\site-packages\PIL\Image.py:959: UserWarning: Palette images with Transparency expressed in bytes should be converted to RGBA images
+  warnings.warn(
+{'loss': 1.9576, 'learning_rate': 1.4814814814814815e-05, 'epoch': 11.0}
+***** Running Evaluation *****
+  Num examples = 2081
+  Batch size = 16
+Saving model checkpoint to models/model_Hull Type\checkpoint-1430
+Configuration saved in models/model_Hull Type\checkpoint-1430\config.json
+Model weights saved in models/model_Hull Type\checkpoint-1430\pytorch_model.bin
+Image processor saved in models/model_Hull Type\checkpoint-1430\preprocessor_config.json
+{'eval_loss': 2.291943073272705, 'eval_accuracy': 0.3565593464680442, 'eval_f1': 0.3565593464680442, 'eval_precision': 0.3565593464680442, 'eval_recall': 0.3565593464680442, 'eval_runtime': 11.9101, 'eval_samples_per_second': 174.725, 'eval_steps_per_second': 10.999, 'epoch': 11.0}
+{'loss': 1.874, 'learning_rate': 1.4529914529914531e-05, 'epoch': 11.08}
+{'loss': 1.9482, 'learning_rate': 1.4245014245014246e-05, 'epoch': 11.15}
+{'loss': 1.9837, 'learning_rate': 1.3960113960113961e-05, 'epoch': 11.23}
+{'loss': 1.7797, 'learning_rate': 1.3675213675213677e-05, 'epoch': 11.31}
+{'loss': 1.9391, 'learning_rate': 1.3390313390313392e-05, 'epoch': 11.38}
+{'loss': 1.9942, 'learning_rate': 1.3105413105413105e-05, 'epoch': 11.46}
+{'loss': 1.8737, 'learning_rate': 1.282051282051282e-05, 'epoch': 11.54}
+{'loss': 1.8527, 'learning_rate': 1.2535612535612536e-05, 'epoch': 11.61}
+{'loss': 1.9645, 'learning_rate': 1.2250712250712251e-05, 'epoch': 11.69}
+{'loss': 1.9283, 'learning_rate': 1.1965811965811967e-05, 'epoch': 11.77}
+c:\Users\chris\AppData\Local\Programs\Python\Python310\lib\site-packages\PIL\Image.py:959: UserWarning: Palette images with Transparency expressed in bytes should be converted to RGBA images
+  warnings.warn(
+{'loss': 1.962, 'learning_rate': 1.168091168091168e-05, 'epoch': 11.84}
+{'loss': 1.8162, 'learning_rate': 1.1396011396011397e-05, 'epoch': 11.92}
+***** Running Evaluation *****
+  Num examples = 2081
+  Batch size = 16
+{'loss': 1.8017, 'learning_rate': 1.1111111111111112e-05, 'epoch': 12.0}
+Saving model checkpoint to models/model_Hull Type\checkpoint-1560
+Configuration saved in models/model_Hull Type\checkpoint-1560\config.json
+{'eval_loss': 2.271545171737671, 'eval_accuracy': 0.36857280153772226, 'eval_f1': 0.3685728015377223, 'eval_precision': 0.36857280153772226, 'eval_recall': 0.36857280153772226, 'eval_runtime': 11.671, 'eval_samples_per_second': 178.305, 'eval_steps_per_second': 11.224, 'epoch': 12.0}
+Model weights saved in models/model_Hull Type\checkpoint-1560\pytorch_model.bin
+Image processor saved in models/model_Hull Type\checkpoint-1560\preprocessor_config.json
+{'loss': 1.8852, 'learning_rate': 1.0826210826210826e-05, 'epoch': 12.08}
+{'loss': 1.8503, 'learning_rate': 1.0541310541310543e-05, 'epoch': 12.15}
+{'loss': 1.8933, 'learning_rate': 1.0256410256410256e-05, 'epoch': 12.23}
+{'loss': 1.8619, 'learning_rate': 9.971509971509972e-06, 'epoch': 12.31}
+{'loss': 1.9088, 'learning_rate': 9.686609686609687e-06, 'epoch': 12.38}
+{'loss': 1.8225, 'learning_rate': 9.401709401709402e-06, 'epoch': 12.46}
+{'loss': 1.8874, 'learning_rate': 9.116809116809118e-06, 'epoch': 12.54}
+{'loss': 1.7774, 'learning_rate': 8.831908831908831e-06, 'epoch': 12.61}
+{'loss': 1.9171, 'learning_rate': 8.547008547008548e-06, 'epoch': 12.69}
+{'loss': 1.9682, 'learning_rate': 8.262108262108262e-06, 'epoch': 12.77}
+{'loss': 1.8824, 'learning_rate': 7.977207977207977e-06, 'epoch': 12.84}
+c:\Users\chris\AppData\Local\Programs\Python\Python310\lib\site-packages\PIL\Image.py:959: UserWarning: Palette images with Transparency expressed in bytes should be converted to RGBA images
+  warnings.warn(
+{'loss': 1.8761, 'learning_rate': 7.692307692307694e-06, 'epoch': 12.92}
+***** Running Evaluation *****
+  Num examples = 2081
+  Batch size = 16
+{'loss': 1.8477, 'learning_rate': 7.4074074074074075e-06, 'epoch': 13.0}
+Saving model checkpoint to models/model_Hull Type\checkpoint-1690
+Configuration saved in models/model_Hull Type\checkpoint-1690\config.json
+Model weights saved in models/model_Hull Type\checkpoint-1690\pytorch_model.bin
+Image processor saved in models/model_Hull Type\checkpoint-1690\preprocessor_config.json
+{'eval_loss': 2.2610645294189453, 'eval_accuracy': 0.3680922633349351, 'eval_f1': 0.3680922633349351, 'eval_precision': 0.3680922633349351, 'eval_recall': 0.3680922633349351, 'eval_runtime': 11.655, 'eval_samples_per_second': 178.55, 'eval_steps_per_second': 11.24, 'epoch': 13.0}
+{'loss': 1.9866, 'learning_rate': 7.122507122507123e-06, 'epoch': 13.08}
+{'loss': 1.8315, 'learning_rate': 6.837606837606839e-06, 'epoch': 13.15}
+{'loss': 1.9026, 'learning_rate': 6.5527065527065525e-06, 'epoch': 13.23}
+{'loss': 1.6828, 'learning_rate': 6.267806267806268e-06, 'epoch': 13.31}
+{'loss': 1.9154, 'learning_rate': 5.982905982905984e-06, 'epoch': 13.38}
+{'loss': 1.9171, 'learning_rate': 5.6980056980056985e-06, 'epoch': 13.46}
+c:\Users\chris\AppData\Local\Programs\Python\Python310\lib\site-packages\PIL\Image.py:959: UserWarning: Palette images with Transparency expressed in bytes should be converted to RGBA images
+  warnings.warn(
+{'loss': 1.8758, 'learning_rate': 5.413105413105413e-06, 'epoch': 13.54}
+{'loss': 1.8573, 'learning_rate': 5.128205128205128e-06, 'epoch': 13.61}
+{'loss': 1.8013, 'learning_rate': 4.8433048433048435e-06, 'epoch': 13.69}
+{'loss': 1.7967, 'learning_rate': 4.558404558404559e-06, 'epoch': 13.77}
+{'loss': 1.8816, 'learning_rate': 4.273504273504274e-06, 'epoch': 13.84}
+{'loss': 1.7837, 'learning_rate': 3.988603988603989e-06, 'epoch': 13.92}
+***** Running Evaluation *****
+  Num examples = 2081
+  Batch size = 16
+{'loss': 1.8453, 'learning_rate': 3.7037037037037037e-06, 'epoch': 14.0}
+Saving model checkpoint to models/model_Hull Type\checkpoint-1820
+Configuration saved in models/model_Hull Type\checkpoint-1820\config.json
+Model weights saved in models/model_Hull Type\checkpoint-1820\pytorch_model.bin
+Image processor saved in models/model_Hull Type\checkpoint-1820\preprocessor_config.json
+{'eval_loss': 2.2904367446899414, 'eval_accuracy': 0.3531955790485344, 'eval_f1': 0.3531955790485344, 'eval_precision': 0.3531955790485344, 'eval_recall': 0.3531955790485344, 'eval_runtime': 11.701, 'eval_samples_per_second': 177.848, 'eval_steps_per_second': 11.196, 'epoch': 14.0}
+{'loss': 1.9248, 'learning_rate': 3.4188034188034193e-06, 'epoch': 14.08}
+{'loss': 1.845, 'learning_rate': 3.133903133903134e-06, 'epoch': 14.15}
+{'loss': 1.8224, 'learning_rate': 2.8490028490028492e-06, 'epoch': 14.23}
+{'loss': 1.8154, 'learning_rate': 2.564102564102564e-06, 'epoch': 14.31}
+{'loss': 1.8336, 'learning_rate': 2.2792022792022796e-06, 'epoch': 14.38}
+c:\Users\chris\AppData\Local\Programs\Python\Python310\lib\site-packages\PIL\Image.py:959: UserWarning: Palette images with Transparency expressed in bytes should be converted to RGBA images
+  warnings.warn(
+{'loss': 1.9183, 'learning_rate': 1.9943019943019943e-06, 'epoch': 14.46}
+{'loss': 1.7187, 'learning_rate': 1.7094017094017097e-06, 'epoch': 14.54}
+{'loss': 1.8452, 'learning_rate': 1.4245014245014246e-06, 'epoch': 14.61}
+{'loss': 1.805, 'learning_rate': 1.1396011396011398e-06, 'epoch': 14.69}
+{'loss': 1.878, 'learning_rate': 8.547008547008548e-07, 'epoch': 14.77}
+{'loss': 1.9162, 'learning_rate': 5.698005698005699e-07, 'epoch': 14.84}
+{'loss': 1.7703, 'learning_rate': 2.8490028490028494e-07, 'epoch': 14.92}
+***** Running Evaluation *****
+  Num examples = 2081
+  Batch size = 16
+{'loss': 1.829, 'learning_rate': 0.0, 'epoch': 15.0}
+Saving model checkpoint to models/model_Hull Type\checkpoint-1950
+Configuration saved in models/model_Hull Type\checkpoint-1950\config.json
+Model weights saved in models/model_Hull Type\checkpoint-1950\pytorch_model.bin
+Image processor saved in models/model_Hull Type\checkpoint-1950\preprocessor_config.json
+Training completed. Do not forget to share your model on huggingface.co/models =)
+Loading best model from models/model_Hull Type\checkpoint-1560 (score: 0.3685728015377223).
+Setting `WANDB_LOG_MODEL` from true to `end` instead
+Saving model checkpoint to C:\Users\chris\AppData\Local\Temp\tmp2puinodq
+Configuration saved in C:\Users\chris\AppData\Local\Temp\tmp2puinodq\config.json
+Model weights saved in C:\Users\chris\AppData\Local\Temp\tmp2puinodq\pytorch_model.bin
+Image processor saved in C:\Users\chris\AppData\Local\Temp\tmp2puinodq\preprocessor_config.json
+Logging model artifacts. ...
+{'eval_loss': 2.2598843574523926, 'eval_accuracy': 0.3680922633349351, 'eval_f1': 0.3680922633349351, 'eval_precision': 0.3680922633349351, 'eval_recall': 0.3680922633349351, 'eval_runtime': 11.821, 'eval_samples_per_second': 176.043, 'eval_steps_per_second': 11.082, 'epoch': 15.0}
+{'train_runtime': 1000.5165, 'train_samples_per_second': 124.781, 'train_steps_per_second': 1.949, 'train_loss': 2.2106610645392, 'epoch': 15.0}

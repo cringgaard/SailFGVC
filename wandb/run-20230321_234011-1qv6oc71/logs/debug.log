@@ -1,0 +1,20 @@
+2023-03-21 23:40:11,328 INFO    MainThread:14008 [wandb_setup.py:_flush():68] Configure stats pid to 14008
+2023-03-21 23:40:11,328 INFO    MainThread:14008 [wandb_setup.py:_flush():68] Loading settings from C:\Users\chris\.config\wandb\settings
+2023-03-21 23:40:11,328 INFO    MainThread:14008 [wandb_setup.py:_flush():68] Loading settings from c:\Users\chris\OneDrive\Skrivebord\huggingFace\wandb\settings
+2023-03-21 23:40:11,328 WARNING MainThread:14008 [wandb_setup.py:_flush():68] Unknown environment variable: WANDB_WATCH
+2023-03-21 23:40:11,328 WARNING MainThread:14008 [wandb_setup.py:_flush():68] Unknown environment variable: WANDB_LOG_MODEL
+2023-03-21 23:40:11,329 INFO    MainThread:14008 [wandb_setup.py:_flush():68] Loading settings from environment variables: {'_require_service': 'True', 'project': 'Sailboat FGVC'}
+2023-03-21 23:40:11,329 INFO    MainThread:14008 [wandb_setup.py:_flush():68] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2023-03-21 23:40:11,329 INFO    MainThread:14008 [wandb_init.py:_log_setup():476] Logging user logs to c:\Users\chris\OneDrive\Skrivebord\huggingFace\wandb\run-20230321_234011-1qv6oc71\logs\debug.log
+2023-03-21 23:40:11,329 INFO    MainThread:14008 [wandb_init.py:_log_setup():477] Logging internal logs to c:\Users\chris\OneDrive\Skrivebord\huggingFace\wandb\run-20230321_234011-1qv6oc71\logs\debug-internal.log
+2023-03-21 23:40:11,329 INFO    MainThread:14008 [wandb_init.py:init():516] calling init triggers
+2023-03-21 23:40:11,329 INFO    MainThread:14008 [wandb_init.py:init():519] wandb.init called with sweep_config: {}
+config: {}
+2023-03-21 23:40:11,329 INFO    MainThread:14008 [wandb_init.py:init():535] re-initializing run, found existing run on stack: 1t3e085e
+2023-03-21 23:40:11,331 INFO    MainThread:14008 [wandb_run.py:_finish():1746] finishing run cringgaard/Sailboat FGVC/1t3e085e
+2023-03-21 23:40:11,332 ERROR   MainThread:14008 [jupyter.py:save_history():440] Run pip install nbformat to save notebook history
+2023-03-21 23:40:11,332 INFO    MainThread:14008 [jupyter.py:save_ipynb():378] not saving jupyter notebook
+2023-03-21 23:40:11,332 INFO    MainThread:14008 [wandb_init.py:_jupyter_teardown():408] cleaning up jupyter logic
+2023-03-21 23:40:11,332 INFO    MainThread:14008 [wandb_run.py:_atexit_cleanup():1949] got exitcode: 0
+2023-03-21 23:40:11,332 INFO    MainThread:14008 [wandb_run.py:_restore():1932] restore
+2023-03-21 23:40:11,332 INFO    MainThread:14008 [wandb_run.py:_restore():1938] restore done
