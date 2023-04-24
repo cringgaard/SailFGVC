@@ -1,2 +1,5 @@
 models/
-data/boats.tar.gz
+data/
+wandb/
+plots/
+```
