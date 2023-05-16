@@ -2,4 +2,6 @@ models/
 data/
 wandb/
 plots/
+hull_type.pth
+wandb/
 ```

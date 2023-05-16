@@ -69,9 +69,11 @@ _FEATURES = datasets.Features({
     # "Path": datasets.Value("string"),
 })
 
-_IMAGES_DIR = "data/images"
+# _IMAGES_DIR = "data/images"
 
 _URL = "https://huggingface.co/datasets/cringgaard/boats_dataset/resolve/main/boats.tar.gz"
+_URL2 = "https://huggingface.co/datasets/cringgaard/boats_dataset/resolve/main/boat24.tar.gz"
+_URL3 = "https://huggingface.co/datasets/cringgaard/boats_dataset/resolve/main/image_search.tar.gz"
 
 
 # class BOATSConfig(datasets.BuilderConfig): #
@@ -110,6 +112,8 @@ class BOATS(datasets.GeneratorBasedBuilder):
 
     def _split_generators(self, dl_manager):
         archive_path = dl_manager.download(_URL)
+        archive_path2 = dl_manager.download(_URL2)
+        archive_path3 = dl_manager.download(_URL3)
 
         return [
             datasets.SplitGenerator(
@@ -127,10 +131,24 @@ class BOATS(datasets.GeneratorBasedBuilder):
                 }
             ),
             datasets.SplitGenerator(
-                name=datasets.Split("full"), 
+                name=datasets.Split("sailboatdata"), 
                 gen_kwargs={
                     "filepath": "https://huggingface.co/datasets/cringgaard/boats_dataset/raw/main/boat_data_clean.csv",
                     "images": dl_manager.iter_archive(archive_path),
+                }
+            ),
+            datasets.SplitGenerator(
+                name=datasets.Split("boat24"), 
+                gen_kwargs={
+                    "filepath": "https://huggingface.co/datasets/cringgaard/boats_dataset/resolve/main/boat24_data_clean.csv",
+                    "images": dl_manager.iter_archive(archive_path2),
+                }
+            ),
+            datasets.SplitGenerator(
+                name=datasets.Split("image_search"), 
+                gen_kwargs={
+                    "filepath": "https://huggingface.co/datasets/cringgaard/boats_dataset/resolve/main/image_search_data.csv",
+                    "images": dl_manager.iter_archive(archive_path3),
                 }
             ),
         ]
@@ -139,8 +157,8 @@ class BOATS(datasets.GeneratorBasedBuilder):
         """This function returns the examples in the raw (text) form."""
         df = pd.read_csv(filepath)
         for file_path, file_obj in images:
-            if sum(df['img_path'] == file_path.split("/")[1]) > 0:
-                idx = df.index[(df['img_path'] == file_path.split("/")[1])].values[0]
+            if sum(df['img_path'] == file_path.split("/")[-1]) > 0:
+                idx = df.index[(df['img_path'] == file_path.split("/")[-1])].values[0]
                 yield file_path , {
                     "img_path"      : {"path": file_path, "bytes": file_obj.read()},
                     "Hull Type"     : Hull_Type_Classes[df['Hull Type'][idx]],
